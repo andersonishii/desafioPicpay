@@ -28,7 +28,7 @@ ________________________________________________________________________________
 
 ## Executar os testes em modo headless:
 ```
-npm run test
+npm test
 ```
 Este comando executa os testes utilizando o Cypress no modo headless.
 
