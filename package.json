@@ -1,0 +1,14 @@
+{
+  "name": "Desafio PIC PAY",
+  "version": "1.0.0",
+  "scripts": {
+     "test": "npx cypress run --config-file cypress.config.js && npx mochawesome-merge cypress/results/*.json > cypress/results/report.json && npx mochawesome-report-generator cypress/results/report.json",
+     "testOpen": "npx cypress open --config-file cypress.config.js"
+  },
+  "devDependencies": {
+    "cypress": "^14.0.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
