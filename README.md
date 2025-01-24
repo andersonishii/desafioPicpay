@@ -16,4 +16,8 @@ Instalação
 ```
 git clone https://github.com/andersonishii/desafioPicpay.git
 cd desafioPicpay
-2) ```
+´´´
+2) Instale as dependências:
+```
+npm install
+´´´
